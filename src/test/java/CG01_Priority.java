@@ -15,7 +15,7 @@ public class CG01_Priority {
     }
 
 
-    @Test
+    @Test                       // priority yazilmazsa 0 degeri alir
     public void testShopify(){
         System.out.println("shopify");
     }
