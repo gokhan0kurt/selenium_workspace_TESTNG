@@ -1,3 +1,5 @@
+package tests;
+
 import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
