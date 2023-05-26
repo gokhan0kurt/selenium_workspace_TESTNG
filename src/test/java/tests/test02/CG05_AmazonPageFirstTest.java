@@ -5,7 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.AmazonPage;
 import utilities.Driver;
-import utilities.Reusable;
+import utilities.ReusableMethods;
 
 public class CG05_AmazonPageFirstTest {
 
@@ -17,7 +17,7 @@ public class CG05_AmazonPageFirstTest {
         // Nutella icin arama yapalim
         AmazonPage amazonPage = new AmazonPage();
         amazonPage.searchBox.sendKeys("Nutella"+ Keys.ENTER);
-        Reusable.waitSeconds(1);
+        ReusableMethods.waitSeconds(1);
         // sonuclarin Nutella icerdigini test edelim
 
         String expectedContent ="Nutella";

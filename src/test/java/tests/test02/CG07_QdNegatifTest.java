@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.QualitydemyPage;
 import utilities.Driver;
-import utilities.Reusable;
+import utilities.ReusableMethods;
 
 public class CG07_QdNegatifTest {
     @Test
@@ -21,7 +21,7 @@ public class CG07_QdNegatifTest {
 
         // password olarak test012305 yazin
         qualitydemyPage.passwordBox.sendKeys("test012305");
-        Reusable.waitSeconds(1);
+        ReusableMethods.waitSeconds(1);
 
         // login butonuna tiklayin
         qualitydemyPage.downLoginButton.click();
@@ -29,7 +29,7 @@ public class CG07_QdNegatifTest {
         // giris yapilamadigini test edin
         Assert.assertTrue(qualitydemyPage.emailBox.isEnabled());
         // sayfayi kapatin
-        Reusable.waitSeconds(2);
+        ReusableMethods.waitSeconds(2);
         Driver.closeDriver();
 
 
