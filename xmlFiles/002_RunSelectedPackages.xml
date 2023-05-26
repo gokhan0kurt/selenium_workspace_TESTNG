@@ -1,0 +1,12 @@
+
+
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Run selected packages">
+    <test name=" weekly tests">
+        <packages>
+            <package name="tests.test01"></package>
+        </packages>
+    </test>
+</suite>
