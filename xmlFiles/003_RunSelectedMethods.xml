@@ -1,0 +1,27 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+
+
+<suite name="Run selected methods">
+    <test name="selected weekly tests">
+        <classes>
+            <class name="tests.test03.CG10_QdConfReaderNegativeTest">
+                <methods>
+                    <exclude name="invalidUsernameTest"></exclude>
+                </methods>
+            </class>
+
+            <class name="tests.test01.CG01_Priority">
+                <methods>
+                    <include name="testShopify"></include>
+                    <include name="testAmazon"></include>
+                </methods>
+            </class>
+        </classes>
+
+
+    </test>
+</suite>
+
+
