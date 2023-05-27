@@ -11,18 +11,18 @@ public class CG01_Priority {
 
 
 
-    @Test(priority = -4)
+    @Test(priority = -3,groups = "smoke")
     public void testYoutube(){
         System.out.println("youtube");
     }
 
 
-    @Test                       // priority yazilmazsa 0 degeri alir
+    @Test(groups = "minireg01")                       // priority yazilmazsa 0 degeri alir
     public void testShopify(){
         System.out.println("shopify");
     }
 
-    @Test(priority = 1)
+    @Test(groups = {"smoke","minireg01"})
     public void testAmazon(){
         System.out.println("amazon");
     }

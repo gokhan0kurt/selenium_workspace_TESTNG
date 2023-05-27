@@ -8,7 +8,7 @@ import utilities.ReusableMethods;
 
 public class CG06_QualitydemyPageTest {
 
-    @Test
+    @Test(groups = "smoke")
     public void qdTest01(){
         // Qualitydemy sayfasina gidin
         Driver.getDriver().get("https://qualitydemy.com");
