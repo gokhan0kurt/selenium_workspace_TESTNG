@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class CG08_Soft_Hard_Assertion {
+public class CG10_Soft_Hard_Assertion {
 
 
     @Test

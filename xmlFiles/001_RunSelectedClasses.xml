@@ -23,7 +23,7 @@
         <classes>
             <class name="tests.test01.CG01_Priority"></class>
             <class name="tests.test02.CG05_AmazonPageFirstTest"></class>
-            <class name="tests.test03.CG08_Soft_Hard_Assertion"></class>
+
         </classes>
     </test>
 </suite>
