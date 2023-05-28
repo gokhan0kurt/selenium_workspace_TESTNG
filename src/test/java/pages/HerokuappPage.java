@@ -24,6 +24,19 @@ public class HerokuappPage {
     @FindBy(tagName = "h3")
     public WebElement newWindowText;
 
+    @FindBy(xpath = "//button[@onclick='jsAlert()']")
+    public WebElement jsAlert;
+
+    @FindBy(xpath = "//button[@onclick='jsConfirm()']")
+    public WebElement jsConfirmAlert;
+
+    @FindBy(xpath = "//button[@onclick='jsPrompt()']")
+    public WebElement jsPromptAlert;
+
+    @FindBy(id = "result")
+    public WebElement resultText;
+
+
 
 
 
